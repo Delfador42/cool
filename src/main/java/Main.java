@@ -31,10 +31,11 @@ public class Main {
               "<section id='root'></section>"+
               "<h2>Title</h2>"+
     					"<form action='/' method='post'>"+
-    					"First name:<br>"+
-    					"<input type='text' name='name' value=''>"+
+    					"<input type='text' name='name' value='' placeholder='username'><br>"+
+    					"<input type='text' placeholder='password'><br>"+
     					"<input type='submit' value='Submit'>"+
-    					"</form><h2>Hello "+
+    					"</form>" +
+                        "<h2>"+
     					name +
     					"</h2></body>" +
               "<script>alert('hi')</script>" +
